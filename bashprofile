@@ -4,7 +4,7 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 alias ffuf="$GOPATH/bin/ffuf"
 
-dirsearch="python3 ~/tools/dirsearch/dirsearch.py"
+alias dirsearch="python3 ~/tools/dirsearch/dirsearch.py"
 
 alias k2="$GOPATH/bin/knockknock"
 
@@ -56,7 +56,7 @@ alias joomscan="perl ~/tools/CMS/Joomscan/joomscan.pl"
 
 #### Frameworks ####
 
-alias sudomy="bash ~/tools/Denum/Sudomy/sudomy"
+alias sudomy="bash ~/tools/Sudomy/sudomy"
 
 
 #### Other Tools ####
