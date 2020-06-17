@@ -1,0 +1,81 @@
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
+alias ffuf="$GOPATH/bin/ffuf"
+
+dirsearch="python3 ~/tools/dirsearch/dirsearch.py"
+
+alias k2="$GOPATH/bin/knockknock"
+
+
+#### Domain ####
+
+
+alias massdns="~/tools/massdns/bin/massdns"
+
+alias subls="python3 ~/tools/Sublist3r/sublist3r.py"
+
+
+
+#### CORS ####
+
+alias corsy="python3 ~/tools/corsy/corsy.py"
+
+alias corscan="python3 ~/tools/corscanner/cors_scan.py"
+
+alias cors="$GOPATH/bin/CORS-Scanner"
+
+
+
+#### XSS ####
+
+alias xsstrike="python3 ~/tools/XSStrike/xsstrike.py"
+
+
+#### Cloud ####
+
+alias s3scanner="python3 ~/tools/AWS/S3Scanner/s3scanner.py"
+
+alias cloudflair="python3 ~/tools/AWS/CloudFlair/cloudflair.py"
+
+alias cloudunflare="bash ~/tools/AWS/CloudUnflare/cloudunflare.bash"
+
+alias gcpbrute="python3 ~/tools/GCPBucketBrute/gcpbucketbrute.py"
+
+
+
+#### CMS ####
+
+alias cmsmap="python3 ~/tools/CMS/CMSmap/cmsmap.py"
+
+alias cmseek="python3 ~/tools/CMS/CMSeek/cmseek.py"
+
+alias joomscan="perl ~/tools/CMS/Joomscan/joomscan.pl"
+
+
+#### Frameworks ####
+
+alias sudomy="bash ~/tools/Denum/Sudomy/sudomy"
+
+
+#### Other Tools ####
+
+alias photon="python3 ~/tools/Photon/photon.py"
+
+alias hakrawler="~/tools/hakrawler/hakrawler"
+
+alias paramspider="python3 ~/tools/ParamSpider/paramspider.py"
+
+alias jexboss="python3 ~/tools/jexboss/jexboss.py"
+
+alias goohak="sudo ~/tools/Goohak/goohak"
+
+alias secretfinder="python3 ~/tools/SecretFinder/SecretFinder.py"
+
+alias arjun="python3 ~/tools/Arjun/arjun.py"
+
+
+
+
+
