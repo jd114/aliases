@@ -71,6 +71,7 @@ alias secretfinder="python3 ~/tools/SecretFinder/SecretFinder.py"
 
 alias arjun="python3 ~/tools/Arjun/arjun.py"
 
+alias ds_store_parser="python2 ~/tools/ds_store_exp/ds_store_exp.py"
 
 
 
